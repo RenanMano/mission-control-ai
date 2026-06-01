@@ -4,10 +4,10 @@
 **Missão:** Artemis V Test  
 **Equipe:** Starship Troopers  
 
-## 📖 Sobre o Projeto
+##  Sobre o Projeto
 Este projeto foi desenvolvido como parte da Global Solution da FIAP para a disciplina de Pensamento Computacional e Automação com Python. O objetivo do sistema é monitorar, através de simulações, telemetrias vitais de uma missão espacial, classificando o risco de cada ciclo orbital e emitindo relatórios automáticos de contingência.
 
-## ⚙️ Funcionalidades
+##  Funcionalidades
 O algoritmo realiza a leitura de uma matriz de dados simulando múltiplos ciclos da missão, avaliando 5 sensores críticos:
 1. Temperatura Interna (ºC)
 2. Comunicação com a Base (%)
@@ -17,7 +17,7 @@ O algoritmo realiza a leitura de uma matriz de dados simulando múltiplos ciclos
 
 O sistema processa essas informações e gera um **Relatório Final** exibindo médias, a área mais afetada, a quantidade de ciclos críticos e a tendência geral da missão (piora, melhora ou estabilidade).
 
-## 📊 Regras de Alerta e Classificação
+##  Regras de Alerta e Classificação
 O sistema utiliza um sistema de pontuação de risco para cada sensor:
 - **NORMAL** (0 pontos)
 - **ATENÇÃO** (1 ponto)
@@ -38,7 +38,7 @@ Com base na soma dos pontos de um ciclo, a missão recebe sua classificação ge
 - **3 a 5 pontos:** MISSÃO EM ATENÇÃO
 - **6 a 10 pontos:** MISSÃO CRÍTICA
 
-## 🚀 Como Executar
+##  Como Executar
 1. Certifique-se de ter o Python 3.x instalado em sua máquina.
 2. Clone este repositório.
 3. Execute o script principal pelo terminal:
